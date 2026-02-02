@@ -10,7 +10,8 @@ public class CandidatRESTApi {
     //simple web service for testing
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello I'm Microservice 1: I work on Candidat and Adress Entities";
+        return "Hello I'm Microservice 1: " +
+                "I work on Candidat and Adress Entities";
     }
 
 }
