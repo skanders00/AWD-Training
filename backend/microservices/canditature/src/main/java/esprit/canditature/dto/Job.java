@@ -1,5 +1,5 @@
-package esprit.canditature;
-
+package esprit.canditature.dto;
+// class DTO
 public class Job {
     private int id;
 
